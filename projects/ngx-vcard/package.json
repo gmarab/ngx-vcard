@@ -6,25 +6,24 @@
     "angular",
     "vCard"
   ],
-  "homepage": "https://github.com/DanielHabenicht/ngx-vcard",
+  "homepage": "https://github.com/gmarab/ngx-vcard",
   "bugs": {
-    "url": "https://github.com/DanielHabenicht/ngx-vcard/issues"
+    "url": "https://github.com/gmarab/ngx-vcard/issues"
   },
   "author": {
-    "name": "Daniel Habenicht",
-    "email": "daniel-habenicht@aquiver.de",
-    "url": "https://www.aquiver.de"
+    "name": "Giampiero Marabese",
+    "email": "giampiero.marabese@gmail.com"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DanielHabenicht/ngx-vcard"
+    "url": "git://github.com/gmarab/ngx-vcard.git"
   },
   "dependencies": {
-    "tslib": "2.3.1"
+    "tslib": "^2.3.1"
   },
   "peerDependencies": {
-    "@angular/common": ">=5.x <13.0.0",
-    "@angular/core": ">=5.x <13.0.0"
+    "@angular/common": ">=13.x",
+    "@angular/core": ">=13.x"
   }
 }

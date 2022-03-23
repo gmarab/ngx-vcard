@@ -3,6 +3,12 @@ import { VCardFormatter } from './ngx-vcard.formatter';
 import { VCard } from './types/vCard';
 import { VCardEncoding } from './types/vCardEncoding';
 
+declare global {
+  interface Navigator {
+      msSaveBlob?: (blob: any, defaultName?: string) => boolean
+  }
+}
+
 const ERROR_MESSAGE =
   "ngx-vcard: No input specified. You must specify either 'vcdDownloadVCard' or 'generateVCardFunction'";
 @Directive({
